@@ -2,7 +2,7 @@ package Exercise3;
 
 public class Circle {
 	final double pi = 3.14; 
-	double height=1.0, radius;
+	double, radius;
 	String color;
 	
 	public Circle() {
@@ -34,9 +34,6 @@ public class Circle {
 	}
 	double getArea() {
 		return pi*radius*radius;
-	}
-	double getVolume() {
-		return pi*radius*radius*height;
 	}
 //	String toString() {
 //	}
@@ -82,7 +79,6 @@ public static void main(String args[]) {
 	Circle cyl = c.new Cylinder(5,6,"red");
 	System.out.println("Circle Area: "+c.getArea());
 	System.out.println("Cylinder Area: "+cyl.getArea());
-	System.out.println("Circle Volume: "+c.getVolume());
 	System.out.println("Cylinder Volume: "+cyl.getVolume());		
 }
 }
@@ -91,5 +87,4 @@ public static void main(String args[]) {
 
 //	Circle Area: 50.24
 //	Cylinder Area: 78.5
-//	Circle Volume: 50.24
 //	Cylinder Volume: 471.0
