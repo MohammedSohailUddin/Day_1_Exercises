@@ -1,11 +1,8 @@
 package Exercise1;
-
 public class Account {
-	
 	String id;
 	String name;
 	int balance = 0;
-	
 	public Account(String id, String name) {
 		this.id = id;
 		this.name = name;
