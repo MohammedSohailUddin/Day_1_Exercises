@@ -44,7 +44,7 @@ public class Discount {
 		}
 	}
 	
-	class Visit extends Customer{
+	class Visit{
 		public Visit(String name) {
 			super(name);
 			// TODO Auto-generated constructor stub
