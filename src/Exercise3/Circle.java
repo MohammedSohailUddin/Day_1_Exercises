@@ -2,7 +2,7 @@ package Exercise3;
 
 public class Circle {
 	final double pi = 3.14; 
-	double, radius;
+	double radius;
 	String color;
 	
 	public Circle() {
@@ -35,15 +35,15 @@ public class Circle {
 	double getArea() {
 		return pi*radius*radius;
 	}
+	double getVolume() {
+		return 0;
+	};
 //	String toString() {
 //	}
 
 
 class Cylinder extends Circle{
-	
-	public Cylinder() {
-		height = 1.0;
-	}
+	double height = 1.0;
 	
 	public Cylinder(double r) {
 		this.radius = r;
@@ -74,7 +74,6 @@ class Cylinder extends Circle{
 }
 	
 public static void main(String args[]) {
-	//System.out.println("welcome");
 	Circle c = new Circle(4,"red");
 	Circle cyl = c.new Cylinder(5,6,"red");
 	System.out.println("Circle Area: "+c.getArea());
